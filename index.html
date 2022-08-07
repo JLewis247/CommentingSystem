@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comment System</title>
+  </head>
+  <body>
+
+    <div class="form">
+      <h5>Add Comment</h5>
+      Name: <input type="text" id="name" /><br /><br/>
+      Date: <input type="date" id="date"/><br /><br />
+      Comment: <textarea rows="5" cols="30" id="bodyText"></textarea><br /><br/>
+      <input type="button" id="addComment" value="Add Comment" />
+    </div>
+
+    <div id="container"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
